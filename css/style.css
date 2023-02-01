@@ -42,27 +42,20 @@ header {
 }
 
 .header-link a:hover {
-  color: #2ecc71;
+  color: #7e57c2;
   transition: 0.3s all;
 }
 
 .logo img {
   height: 80px;
   width: 80px;
-  background: transparent;
-  border: 1px solid #2ecc71;
-  border-radius: 50px;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
   cursor: pointer;
 }
 
 button {
-  color: #2ecc71;
+  color: #7e57c2;
   background: transparent;
-  border: solid 1px #2ecc71;
+  border: solid 1px #7e57c2;
   padding: 5px;
   border-radius: 15px;
   width: 150px;
@@ -71,7 +64,7 @@ button {
 }
 
 button:hover {
-  background-color: #2ecc71;
+  background-color: #7e57c2;
   color: #fff;
   transition: 0.5s;
 }
@@ -93,11 +86,11 @@ button:hover {
 }
 
 .container-text span {
-    color: #2ecc71;
+    color: #7e57c2;
 }
 
 .social-medias i{
     padding-left: 1rem;
-    color: #2ecc71;
+    color: #7e57c2;
     font-size: 45px;
 }
