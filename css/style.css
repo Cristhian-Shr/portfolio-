@@ -13,7 +13,7 @@ body {
 
 .background {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/background.jpg);
+    url(../img/planoDeFundo.avif);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -44,12 +44,15 @@ header {
 .header-link a:hover {
   color: #7e57c2;
   transition: 0.3s all;
+  color: #fff;
 }
 
 .logo img {
-  height: 80px;
-  width: 80px;
+  height: 130px;
+  width: 130px;
   cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 button {
@@ -61,6 +64,7 @@ button {
   width: 150px;
   cursor: pointer;
   font-size: 12px;
+  color: #fff;
 }
 
 button:hover {
@@ -70,27 +74,69 @@ button:hover {
 }
 
 .container-text {
-    padding-top: 120px;
-    color: #fff;
+  padding-top: 120px;
+  color: #fff;
 }
 
 .container-text p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .container-text h2,
-.container-text h1,
 .container-text p,
 .social-medias {
-    padding: 0 0 20px 20px;
+  padding: 20px 0 20px 20px;
+}
+
+.container-text h1 {
+ padding-left: 20px;
 }
 
 .container-text span {
-    color: #7e57c2;
+  color: #7e57c2;
 }
 
-.social-medias i{
-    padding-left: 1rem;
-    color: #7e57c2;
-    font-size: 45px;
+.social-medias i {
+  padding-left: 1rem;
+  color: #7e57c2;
+  font-size: 45px;
 }
+
+.btn {
+  margin-left: 20px;
+}
+
+/* efeito digitação */
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #fff;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  animation: typing 5.5s steps(40, end), blink-caret 1.2s step-end infinite;
+  max-width: 630px;
+  text-align: left;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+}
+
+
